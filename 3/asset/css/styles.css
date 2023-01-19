@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+/* seccion cabecera */ 
+header{
+    text-align: center;
+    width: 100%;
+    font-weight: 300;
+    
+
+}
+header img{
+    width: 100%;
+}
+ /* seccion cabecera etiqueta h1 */
+header h1{
+    font-size: 50px;
+    
+}
+/* seccion principal div evitar que desborde */
+main div {
+    width: 80%;
+    margin: auto;
+    display: flow-root;
+    margin-top: 73px;
+}
+/* parametros imagenes */
+main img {
+    width: 399px;
+    height: 237px;
+    float: right;
+
+}
+/* parámetros textos */
+main p{
+    margin-top: 1em;
+    text-align: left;
+    font-weight: 300;
+    padding-bottom: 1em;
+    width: 50%;
+    text-align: justify;
+}
+
+/* clase para caracteristicas */
+.caracteristicas{
+    margin-top: 0.5em;
+    background-color: rgba(30, 26, 19,1);
+    text-align: center;
+    height: 348px;
+    opacity: 0.98;
+}
+/* clase para titulos dentro de caractaristica */
+.titulo {
+    padding-top: 75px;
+    font-size: 40px;
+    font-weight: 300;
+}
+/* clase iconos */
+.item{
+    margin-top: 50px;
+    display: inline-block;
+    width: 200px;
+    font-size: 20px;
+    
+}
+/* clase para p de los itemes */
+.item p {
+    margin-top: 0.5em;
+    font-size: 16px;
+}
+/* clase para galeria */
+.galeria{
+    width: 80%;
+    margin: 2em auto;
+    text-align: center;
+}
+
+.galeria img {
+    width: 316px;
+    height: 202px;
+    margin:0.2em;
+}
+
+footer{
+    background-color: rgba(30, 26, 19,1);
+    padding: 1em;
+    width: 100%;
+    opacity: 0.94;
+    text-align: center;
+}
+footer a{
+    color: white;
+}

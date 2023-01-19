@@ -1,0 +1,48 @@
+
+.navcolor{
+    background-color: rgba(40, 167, 69, 1);
+}
+.logocabeza img {
+    width: 86pt;
+    height: 25pt;
+}
+
+main img{
+    width: 278pt;
+    height: 180pt;
+} 
+
+.buttoncolor{
+    color: white;
+}
+
+.ubi p {
+    display: inline-block;
+    
+}
+.precioanterior{
+    display: inline-block;
+    padding-left: 49pt;
+    font-size: 1rem;
+
+}
+.preciooferta{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 12pt;
+    color: rgba(40, 167, 69, 1);
+}
+
+.colorrelleno{
+    margin-top: 12pt;
+    background-color: rgba(40, 167, 69, 1);
+}
+section p{
+    font-size: 21px;
+    color: white;
+    text-align: center;
+}
+.logopie img {
+    width: 82pt;
+    height: 24pt;
+}
